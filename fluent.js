@@ -1,9 +1,5 @@
 import {FluentBundle, FluentResource} from "@fluent/bundle";
 
-// let resource = new FluentResource(`
-// -brand-name = Foo 3000
-// welcome = Welcome, {$name}, to {-brand-name}!
-// `);
 let enResource = new FluentResource(`
 tabs-close = {$tabCount ->
     [one] Close {$tabCount} tab
