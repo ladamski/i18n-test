@@ -1,0 +1,6 @@
+{
+  "tab_one": "Zamknij kartę",
+  "tab_few": "Zamknij {{count}} karty",
+  "tab_many": "Zamknij {{count}} kart",
+  "tab_other": ""
+}

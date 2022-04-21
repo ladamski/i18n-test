@@ -13,6 +13,15 @@
     "dependencies": {
         "@fluent/bundle": "^0.17.1",
         "@formatjs/intl": "^2.1.1",
-        "i18next": "^21.6.16"
+        "i18next": "^21.6.16",
+        "i18next-http-backend": "^1.4.0",
+        "i18next-icu": "^2.0.3",
+        "i18next-parser": "^6.3.0",
+        "intl-messageformat": "^9.12.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.9",
+        "babel-plugin-i18next-extract": "^0.8.3"
     }
 }
