@@ -1,4 +1,14 @@
 {
-  "tab_one": "Close one tab",
-  "tab_other": "Close {{count}} tabs"
+    "smartling": {
+        "string_format" : "icu",
+        "translate_paths": [{
+            "path": "*/title",
+            "key": "{*}/title",
+            "instruction": "*/note"
+          }]
+      },
+    "tab": {
+        "title": "Close {count, plural, one {# tab}\nother {# tabs}}" ,
+        "note": "Hint on context for translator"
+    }
 }

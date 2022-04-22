@@ -1,6 +1,13 @@
 {
-  "tab_one": "Zamknij kartę",
-  "tab_few": "Zamknij {{count}} karty",
-  "tab_many": "Zamknij {{count}} kart",
-  "tab_other": ""
+    "smartling": {
+        "string_format" : "icu",
+        "translate_paths": [{
+            "path": "*/title",
+            "key": "{*}/title",
+            "instruction": "*/note"
+          }]
+      },
+    "tab": {
+         "title": "Zamknij {count, plural,\none {kartę}\nfew {# karty}\nother {# kart}\n}" 
+    }
 }
